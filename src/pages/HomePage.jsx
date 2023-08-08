@@ -9,7 +9,9 @@ const HomePage = () => {
                     <p className=' text-center lg:mt-16 md:mt-12 mt-5 text-sm md:text-xl lg:text-2xl lg:w-[65%] w-[75%] '>Bite-sized YouTube Summaries. Save time, stay informed</p>
                 </p>
                 <div className='mx-12 md:mx-0'>
-                    <input type="text" className='w-[100%] lg:mt-16 md:mt-12 mt-5 p-3 rounded-xl bg-transparent outline-lightGreen border border-mediumGreen' />
+                    <input type="text" 
+                    placeholder='https://www.youtube.com/watch?v=8KGMMiuHdt8'
+                    className='w-[100%] lg:mt-16 md:mt-12 mt-5 p-3 rounded-xl bg-transparent outline-lightGreen border border-mediumGreen placeholder-mediumGreen place-items-center' />
                     <button className='mt-3 w-full bg-lightGreen p-3 rounded-xl text-darkGreen font-bold'>Generate Summary</button>
                 </div>
             </div>
