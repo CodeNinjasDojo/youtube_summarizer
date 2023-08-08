@@ -1,9 +1,10 @@
+import HomePage from "./pages/HomePage";
 
 
 function App() {
   return (
-    <div className="w-screen h-screen flex items-center justify-center">
-      App
+    <div className="bg-darkGreen">
+      <HomePage />
     </div>
   );
 }
